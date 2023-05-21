@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar styling */
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 20px;
+  height: 10vh;
+}
+
+.nav-logo {
+  width: 5%;
+  height: 5%;
+  margin-left: 20px;
+}
+
+nav ul {
+  float: right;
+  margin-top: 25px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+  list-style: none;
+}
+
+nav ul li a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0px 32px;
+  cursor: pointer;
+}
+
+nav ul li a:hover {
+  color: tomato;
+}
+
+nav ul li .active {
+  color: tomato;
+}
+
+/* Carousel styling */
+.carousel {
+  display: flex;
+  overflow: hidden;
+}
+
+.carousel img {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+}
+
+/* Main content styling */
+.main-content {
+  padding: 50px;
+  text-align: center;
+  height: 100vh;
+}
+
+.main-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.main-content p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Services */
+.columns {
+  height: 39vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+  margin-left: 15px;
+}
+
+.columns1 {
+  width: 28%;
+  position: relative;
+  background-color: #f2f2f2;
+  border-radius: 25px;
+  transition: 1s;
+  text-align-last: center;
+  font-size: 22px;
+  text-decoration: none;
+  display: block;
+
+}
+
+.columns1:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.Sales {
+  width: 90%;
+  height: 26vh;
+}
+
+.columns2 {
+  width: 31%;
+  position: relative;
+  background-color: #f2f2f2;
+  border-radius: 25px;
+  transition: 1s;
+  text-align-last: center;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.columns2:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.Services {
+  width: 80%;
+  height: 26vh;
+}
+
+.columns3 {
+  width: 31%;
+  position: relative;
+  background-color: #f2f2f2;
+  border-radius: 25px;
+  transition: 1s;
+  text-align-last: center;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.columns3:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.remote {
+  width: 80%;
+  height: 26vh;
+}
+
+.space {
+  background-color: white;
+  height: 5vh;
+}
+
+/* WORKED WITH */
+.worked-with {
+  background-color: #e0e0e0;
+}
+
+.worked-with h1 {
+  text-align-last: center;
+}
+
+.company {
+  height: 35vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.png {
+  max-width: 150px;
+  max-height: 150px;
+  margin-top: 10px;
+  padding: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* About Us */
+.about-us {
+  height: 60vh;
+}
+
+.about-us h1 {
+  margin-top: 3%;
+}
+
+.columns {
+  margin-top: 4%;
+}
+
+
+.footer3 {
+  width: 100%;
+  margin-top: 1%;
+  position: relative;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  background-color: rgb(24, 24, 24);
+  display: flex;
+  justify-content: space-evenly;
+  color: #fff;
+}
+
+.email {
+  margin-left: 80px;
+}
+
+.wp {
+  margin-left: 80px;
+}
+
+.phone {
+  margin-left: 80px;
+}
+
+.footer3 h3 {
+  text-align-last: center;
+}
+
+.footer3 h4 {
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: -35px;
+  margin-left: 150px;
+}
+
+.address h2{
+  margin-right: 50px;
+}
+
+/* <!--
+Sizes:
+tiny: 1rem
+small: 2rem
+medium: 4rem
+large: 6rem
+--> */
